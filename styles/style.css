@@ -43,8 +43,7 @@
 
 
 .header__title {
-  margin: 0;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   display: block;
   width: 730px;
 
@@ -196,9 +195,7 @@
 }
 
 .table__heading {
-  margin: 0;
-  margin-bottom: 20px;
-
+  margin: 0 0 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
