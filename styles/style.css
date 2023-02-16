@@ -97,10 +97,11 @@
 /* ==========DESCRIPTION========== */
 
 .description__two-columns {
-  margin: 100px auto 0;
+  margin: 0 auto;
 }
 
 .two-columns {
+  padding-top: 100px;
   width: 80%;
   display: flex;
   justify-content: space-between;
