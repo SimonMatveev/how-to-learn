@@ -71,16 +71,6 @@
   position: relative;
 }
 
-/*В следующем блоке, где требуется подобная стрелка, вставил ее через html,
-так как размеры на макете это подразумевали, здесь решил применить навык работы
-с псевдоэлементами*/
-.header__link::after {
-  content: "\27F6";
-  position: absolute;
-  bottom: -4px;
-  left: 60px;
-}
-
 .header__main-illustration {
   position: absolute;
   right: 0;
