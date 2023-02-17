@@ -5,7 +5,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-
 .logo {
   width: 228px;
   height: 32px;
@@ -13,7 +12,6 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 .logo_place_header {
   background-image: url(../images/logo_place_header.svg);
@@ -35,7 +33,6 @@
   display: flex;
   align-items: center;
 }
-
 
 .header__title {
   margin: 0 0 0 64px;
@@ -257,6 +254,13 @@
 
 .kaufman__section-title {
   margin-bottom: 20px;
+  position: relative;
+  z-index: 5;
+}
+
+.kaufman__section-subtitle {
+  position: relative;
+  z-index: 5;
 }
 
 .section-title_theme_dark {
@@ -332,7 +336,7 @@
 .footer__column-links {
   list-style: none;
   padding: 0;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
 }
 
 .footer__column-link {
