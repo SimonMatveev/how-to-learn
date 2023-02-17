@@ -12,11 +12,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  /*Взял за образец реализации логотипа вариант самого Яндекса в поисковике*/
-  overflow: hidden;
-  white-space: nowrap;
-  text-indent: 100%;
-  display: block;
 }
 
 
@@ -229,7 +224,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  width: 80%;
+  max-width: 80%;
   margin: 0 auto;
   text-align: center;
 }
